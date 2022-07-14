@@ -6,5 +6,67 @@
 </head>
 <body>
 <h1>Covid Prediction</h1>
+
+<form action="" method="post" >
+    {% csrf_token %}
+    Enter your name : <input type="text" name="username" required><br><br>
+    Age : <input type="number" name="age" required><br><br>
+    Sex : <select name="sex">
+                    <option value="" >Female</option>
+                    <option value="" >Male</option></select><br><br>
+    Patient Type : <select name="ptype">
+                    <option value="" >Hospitalized</option>
+                    <option value="" >Not Hospitalized</option></select><br><br>
+    Intubed : <select name="intube">
+                    <option value="" >Does not apply</option>
+                    <option value="Yes" >No</option>
+                    <option value="No" >Yes</option></select><br><br>
+    Pneumonia : <select name="pneumonia">
+                    <option value="" >No</option>
+                    <option value="" >Yes</option></select><br><br>
+    Pregnancy : <select name="pregnancy">
+                    <option value="" >Does not apply</option>
+                    <option value="" >No</option>
+                    <option value="" >Yes</option></select><br><br>
+    Diabetes : <select name="diabetes">
+                    <option value="" >No</option>
+                    <option value="" >Yes</option></select><br><br>
+    Copd : <select name="copd">
+                    <option value="" >No</option>
+                    <option value="" >Yes</option></select><br><br>
+    Asthma : <select name="asthma">
+                    <option value="" >No</option>
+                    <option value="" >Yes</option></select><br><br>
+    Inmsupr : <select name="inmsupr">
+                    <option value="" >No</option>
+                    <option value="" >Yes</option></select><br><br>
+    Hypertension : <select name="hypertension">
+                    <option value="" >No</option>
+                    <option value="" >Yes</option></select><br><br>
+    Cardiovascular : <select name="cardiovascular">
+                    <option value="" >No</option>
+                    <option value="" >Yes</option></select><br><br>
+    Obesity : <select name="obesity">
+                    <option value="" >No</option>
+                    <option value="" >Yes</option></select><br><br>
+    Renal Chronic : <select name="renalchronic">
+                    <option value="" >No</option>
+                    <option value="" >Yes</option></select><br><br>
+    Tobacco : <select name="tobacco">
+                    <option value="" >No</option>
+                    <option value="" >Yes</option></select><br><br>
+    Contact Other Covid : <select name="contactothercovid">
+                    <option value="" >No</option>
+                    <option value="" >Yes</option></select><br><br>
+    ICU : <select name="icu">
+                    <option value="" >Does not apply</option>
+                    <option value="" >No</option>
+                    <option value="" >Yes</option></select><br><br>
+    Other Disease : <select name="otherdisease">
+                    <option value="" >No</option>
+                    <option value="" >Yes</option></select><br><br>
+    <input type="submit" value="Prediction">
+</form>
+
 </body>
 </html>
