@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="20055026-1a6d-40da-974b-c8115fe24e74" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/covidapp/notebook/covid.csv" afterDir="false" />
+    <list default="true" id="20055026-1a6d-40da-974b-c8115fe24e74" name="Changes" comment="notebook model">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/covidapp/templates/result.html" beforeDir="false" afterPath="$PROJECT_DIR$/covidapp/templates/result.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/covidapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/covidapp/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +88,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657762167276</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="notebook model">
+      <created>1657768564154</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1657768564154</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -96,6 +104,7 @@
     <MESSAGE value="template add" />
     <MESSAGE value="template covid" />
     <MESSAGE value="template value get" />
-    <option name="LAST_COMMIT_MESSAGE" value="template value get" />
+    <MESSAGE value="notebook model" />
+    <option name="LAST_COMMIT_MESSAGE" value="notebook model" />
   </component>
 </project>
